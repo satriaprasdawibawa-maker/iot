@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Satria Prasda Wibawa — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="page">
+
+  <!-- ===== SIDEBAR ===== -->
+  <aside class="sidebar">
+    <div class="photo-wrap">
+      <img src="foto.jpg" alt="Foto Satria Prasda Wibawa" class="photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+      <div class="photo-fallback">SPW</div>
+    </div>
+
+    <div class="id-block">
+      <h1>Satria Prasda Wibawa</h1>
+      <p class="role">D3 Teknik Elektronika</p>
+      <p class="campus">Politeknik Negeri Semarang</p>
+    </div>
+
+    <ul class="contact-list">
+      <li><span class="ic">✉</span><a href="mailto:satriaprasdawibawa@gmail.com">satriaprasdawibawa@gmail.com</a></li>
+      <li><span class="ic">☎</span><a href="tel:0881025982294">0881025982294</a></li>
+      <li><span class="ic">⚲</span>Kudus, Jawa Tengah, Indonesia</li>
+    </ul>
+
+    <div class="skills-block">
+      <h2><span class="ic">★</span> Keahlian</h2>
+      <ul class="skill-list" id="skillList"></ul>
+    </div>
+  </aside>
+
+  <!-- ===== MAIN ===== -->
+  <main class="main">
+
+    <!-- Tentang Saya -->
+    <section class="card">
+      <h2 class="card-title"><span class="ic">◆</span> Tentang Saya</h2>
+      <p class="about-text">
+        Saya merupakan mahasiswa D3 Teknik Elektronika Politeknik Negeri Semarang yang memiliki minat pada
+        bidang Internet of Things (IoT), Instrumentasi, Otomasi Industri, dan Elektronika Terapan. Berpengalaman
+        dalam pengembangan proyek berbasis Arduino, integrasi sensor, simulasi menggunakan MATLAB dan
+        Proteus, serta perawatan perangkat elektronika melalui program magang di CV Hartono Mitra Audio
+        Equipment. Saat ini sedang mengembangkan tugas akhir mengenai sistem sortasi ikan lele otomatis
+        berbasis IoT menggunakan mekanisme konveyor dan sensor berat.
+      </p>
+
+      <div class="two-col">
+        <div>
+          <h3 class="mini-title"><span class="ic">▣</span> Software &amp; Tools</h3>
+          <ul class="bullet-list" id="toolsList"></ul>
+        </div>
+        <div>
+          <h3 class="mini-title"><span class="ic">✶</span> Bidang Minat</h3>
+          <ul class="bullet-list" id="interestList"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pendidikan + Magang -->
+    <div class="grid-two">
+      <section class="card">
+        <h2 class="card-title"><span class="ic">🎓</span> Pendidikan</h2>
+        <div class="edu-item">
+          <div class="edu-logo">PNS</div>
+          <div>
+            <h3>Politeknik Negeri Semarang</h3>
+            <p class="accent">D3 Teknik Elektronika</p>
+            <p class="period">2023 – 2026</p>
+            <p class="desc">Mahasiswa Program Studi D3 Teknik Elektronika.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="edu-item">
+          <div class="edu-logo">SMK</div>
+          <div>
+            <h3>SMK Muhammadiyah Kudus</h3>
+            <p class="accent">Teknik Audio Video</p>
+            <p class="period">2020 – 2023</p>
+            <p class="desc">Lulusan Teknik Audio Video.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2 class="card-title"><span class="ic">💼</span> Pengalaman Magang</h2>
+        <div class="edu-item">
+          <div class="edu-logo">HA</div>
+          <div>
+            <h3>CV Hartono Mitra Audio Equipment</h3>
+            <p class="accent">Teknisi Servis Audio dan Elektronika</p>
+            <p class="period">2022 – 2023</p>
+            <ul class="bullet-list tight">
+              <li>Diagnosis dan perbaikan perangkat audio elektronik.</li>
+              <li>Pengujian dan pengukuran komponen elektronika.</li>
+              <li>Troubleshooting rangkaian analog dan digital.</li>
+              <li>Penggunaan alat ukur seperti multimeter dan osiloskop.</li>
+              <li>Pengujian fungsi perangkat setelah perbaikan.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Proyek + Tugas Akhir -->
+    <div class="grid-two">
+      <section class="card">
+        <h2 class="card-title"><span class="ic">🗂</span> Proyek</h2>
+        <ol class="project-list" id="projectList"></ol>
+      </section>
+
+      <section class="card">
+        <h2 class="card-title"><span class="ic">📄</span> Tugas Akhir</h2>
+        <div class="thesis">
+          <div class="thesis-cover">
+            <img src="proposal.jpg" alt="Sampul Proposal Tugas Akhir" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="thesis-fallback">
+              <p class="tf-title">PROPOSAL<br>TUGAS AKHIR</p>
+              <p class="tf-sub">Rancang Bangun Sistem Sortasi<br>Ikan Lele Otomatis Berbasis IoT</p>
+            </div>
+          </div>
+          <div class="thesis-text">
+            <h3>Rancang Bangun Sistem Sortasi Ikan Lele Otomatis Berbasis Internet of Things Menggunakan Mekanisme Konveyor dan Sensor Berat</h3>
+            <p>Sistem sortasi ikan lele otomatis menggunakan sensor berat, konveyor, dan monitoring berbasis Internet of Things untuk mempermudah proses penyortiran berdasarkan berat ikan secara efisien dan akurat.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+  </main>
+</div>
+
+<footer class="footer">
+  © <span id="year"></span> <strong>Satria Prasda Wibawa</strong> Portfolio
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

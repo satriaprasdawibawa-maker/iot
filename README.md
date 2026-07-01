@@ -5,14 +5,17 @@ Website portfolio statis (HTML/CSS/JS, tanpa framework) siap diupload ke GitHub 
 ## Struktur File
 ```
 portfolio/
-├── index.html      # struktur halaman
-├── style.css       # tampilan (warna navy + emas seperti desain asli)
-├── script.js       # data skill, tools, proyek (edit di sini)
-├── foto.jpg        # foto profil kamu (ganti dengan fotomu)
-└── proposal.jpg    # sampul proposal tugas akhir (opsional)
+├── index.html         # struktur halaman
+├── style.css          # tampilan (warna navy + emas seperti desain asli)
+├── script.js           # data skill, tools, proyek (edit di sini)
+├── foto.jpg            # foto profil
+├── proposal.jpg        # sampul proposal tugas akhir
+├── logo-polines.png    # logo Politeknik Negeri Semarang
+├── logo-smk.png        # logo SMK Muhammadiyah Kudus
+└── logo-hartono.png    # logo CV Hartono Mitra Audio Equipment
 ```
 
-Kalau `foto.jpg` atau `proposal.jpg` belum ada, akan otomatis muncul placeholder (inisial "SPW" / judul proposal), jadi tetap aman.
+Semua gambar sudah termasuk. Kalau salah satu file gambar hilang/rusak, halaman tetap aman karena otomatis menampilkan placeholder.
 
 ## Cara Edit Data
 Buka `script.js`, ubah isi array `skills`, `tools`, `interests`, dan `projects`.
@@ -40,5 +43,5 @@ Untuk teks lain (Tentang Saya, Pendidikan, Pengalaman Magang, Tugas Akhir, konta
    ```
 
 ## Catatan
-- Tambahkan foto profil dengan nama file persis `foto.jpg` di folder yang sama dengan `index.html`.
+- Pastikan **semua file** (termasuk gambar `.jpg`/`.png`) ikut diupload dalam satu folder yang sama dengan `index.html`, jangan hanya file HTML-nya saja.
 - Bisa juga pakai nama repo `USERNAME.github.io` supaya URL menjadi domain utama kamu (tanpa `/portfolio`).

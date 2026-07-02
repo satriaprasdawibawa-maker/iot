@@ -1,15 +1,15 @@
 // ====== DATA — silakan edit sesuai kebutuhan kamu ======
 const skills = [
-  { name: "Arduino Programming", level: 90 },
-  { name: "Internet of Things (IoT)", level: 90 },
-  { name: "Sensor Integration", level: 85 },
-  { name: "Instrumentation System", level: 85 },
+  { name: "Arduino Programming", level: 70 },
+  { name: "Internet of Things (IoT)", level: 75 },
+  { name: "Sensor Integration", level: 80 },
+  { name: "Instrumentation System", level: 80 },
   { name: "Electronic Troubleshooting", level: 85 },
-  { name: "PCB & Circuit Analysis", level: 80 },
-  { name: "MATLAB", level: 85 },
+  { name: "PCB & Circuit Analysis", level: 85 },
+  { name: "MATLAB", level: 70 },
   { name: "Proteus", level: 85 },
-  { name: "Microsoft Office", level: 90 },
-  { name: "Problem Solving", level: 90 },
+  { name: "Microsoft Office", level: 80 },
+  { name: "Problem Solving", level: 85 },
   { name: "Teamwork", level: 90 },
   { name: "Communication", level: 90 },
 ];
